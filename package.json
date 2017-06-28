@@ -1,0 +1,22 @@
+{
+  "name": "server-tools",
+  "version": "1.0.0",
+  "description": "''\u001b[D服务器ip管理工具‘",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemontree2000/server-tools.git"
+  },
+  "author": "Edward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemontree2000/server-tools/issues"
+  },
+  "homepage": "https://github.com/lemontree2000/server-tools#readme",
+  "devDependencies": {
+    "electron": "^1.6.11"
+  }
+}
