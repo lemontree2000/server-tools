@@ -14,16 +14,23 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 430, 
-    height: 65,
-    frame: true
+    width: 220, 
+    height: 55,    
+    // width: 220, 
+    // height: 55,
+    frame: false,
+    hasshadow: true,
+    transparent: true,
+    resizable: false,
+    maximizable: false,
+    alwaysOnTop: true
   })
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',
-    slashes: true
+    slashes: true,
   }))
 
   // Open the DevTools.
