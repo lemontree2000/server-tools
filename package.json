@@ -4,7 +4,8 @@
   "description": "''\u001b[D服务器ip管理工具‘",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager ./ server-tools --win --out serverTools --arch=x64 --version 1.6.11 --overwrite --ignore=node_modules"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/lemontree2000/server-tools#readme",
   "devDependencies": {
-    "electron": "^1.6.11"
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2",
+    "grunt-electron-installer": "^2.1.0"
   }
 }
